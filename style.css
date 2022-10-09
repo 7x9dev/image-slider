@@ -2,6 +2,7 @@ body {
    background-color: #222725;
    height: 100vh;
    margin: 0;
+   font-family: 'Nunito', sans-serif;
 }
 h1 {
    font-family: "Yeseva One", cursive;
@@ -14,14 +15,37 @@ h1 {
    justify-content: center;
 }
 .heading {
-   padding: 70px 0 30px 0;
-}
-#image {
-   width: 50%;
+   padding: 80px 0 30px 0;
 }
 .btn {
    background-color: #899878;
    color: #fff;
    border: none;
-   width: 50px;
+   width: 55px;
+}
+.btn:hover {
+   background-color: #e4e6c3;
+   color: #121113;
+   transition: all 300ms ease-in-out;
+   cursor: pointer;
+}
+footer {
+   color: #fff;
+   font-size: 16px;
+   text-align: center;
+   margin-top: 45px;
+}
+.webLink {
+   color: #fff;
+   text-decoration: none;
+}
+.webLink:hover {
+   color: #fff;
+}
+.authorLink {
+   color: #899878;
+   text-decoration: none;
+}
+.authorLink:hover {
+   color: #e4e6c3;
 }
